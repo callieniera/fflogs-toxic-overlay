@@ -67,7 +67,7 @@ ACTに導入したい場合、Overlay.dllが必要になります。
     ```
 2. `client ID` `client secret`をパラメータ`username` `password`としてURLの後ろに追加：
     ```
-    &username=client ID&password=client secret
+    ?username=client ID&password=client secret
     ```
     パラメータを追加したURLはこんな感じになります：
     ```
