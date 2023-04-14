@@ -54,7 +54,7 @@ ACTに導入したい場合、Overlay.dllが必要になります。
 3. `Reload overlay`
 
 ### 使い方
-ゲーム内でキャラクターを4~5秒フォーカスしたら、オーバーレイで相手のデータを表示させることができます。
+ゲーム内でキャラクターを4~5秒フォーカスしたら、オーバーレイに相手のデータを表示させることができます。
 
  > !["Showcase1"](./img/showcase1.png)
 
@@ -72,8 +72,18 @@ ACTに導入したい場合、Overlay.dllが必要になります。
  > FFLogsにデータのないキャラクター  
  > !["Showcase404"](./img/showcase404.png)
 
+### エラー
+
+1. **認証できません**   
+    `client id (Username)`か`client secret (password)`が正しくありません。
+2. **未対応ワールド**  
+    現在 (`v0.1.0`)、日本サーバーにあるワールドのみ対応可能です。 
+3. **リクエストが多すぎます**  
+    しばらくお待ちください。
+4. 他のエラー  
+    連続で発生する場合、ぜひ [issue](https://github.com/callieniera/fflogs-toxic-overlay/issues) で報告お願いします。
 ## ご注意
-FFLogs APIに問い合わせるために、`client id`および`client secret`をサーバーに送ることになります。URLに`username` `password`を付けない状態でも、このオーバーレイを利用できますが、一定時間内に問い合わせる回数の制限がございます。
+FFLogs APIに問い合わせるために、`client id`および`client secret`をサーバーに送ることになります。URLに`username` `password`をない状態（`https://server03.akimiyabi.net/fflogs-toxic-overlay/`のみ）でも、オーバーレイを利用できますが、一定時間内に問い合わせる回数の制限がございます。
 
 ## Change log
  > ``` 
