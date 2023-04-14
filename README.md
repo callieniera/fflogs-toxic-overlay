@@ -1,24 +1,22 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<a href="https://github.com/callieniera/fflogs-toxic-overlay/">
-<h1><img src="img/icon.webp" alt="Logo" width="20"> FFLogs-Toxic-Overlay</h1>
-</a>
-
-
-  <p align="center">
-    とてもトキシックなACT用オーバーレイです
-  </p>
+    <a href="https://github.com/callieniera/fflogs-toxic-overlay/">
+        <h1><img src="img/icon.webp" alt="Logo" width="20"> FFLogs-Toxic-Overlay</h1>
+    </a>
+    <p align="center">
+        とてもトキシックなACT用オーバーレイです
+    </p>
 </div>
 
-  <ol>
+<ol>
     <li>
-      <a href="#マニュアル">マニュアル</a>
-      <ul>
-        <li><a href="#事前準備">事前準備</a></li>
-        <li><a href="#iinact導入">IINACT導入</a></li>
-        <li><a href="#act導入">ACT導入</a></li>
-      </ul>
+        <a href="#マニュアル">マニュアル</a>
+        <ul>
+            <li><a href="#事前準備">事前準備</a></li>
+            <li><a href="#iinact導入">IINACT導入</a></li>
+            <li><a href="#act導入">ACT導入</a></li>
+        </ul>
     </li>
     <li><a href="#使い方">使い方</a></li>
     <li><a href="#エラー解消">エラー解消</a></li>
@@ -26,7 +24,7 @@
     <li><a href="#関連リンク">関連リンク</a></li>
     <li><a href="#変更履歴">変更履歴</a></li>
     <li><a href="#開発者">開発者</a></li>
-  </ol>
+</ol>
 
 ## マニュアル
 
@@ -111,12 +109,12 @@ ACTに導入したい場合、Overlay.dllが必要になります。
     しばらくお待ちください。  
       
 4. 他のエラー  
-    連続で発生する場合、ぜひ [issue](https://github.com/callieniera/fflogs-toxic-overlay/issues) で報告お願いします。  
+    連続で発生する場合、ぜひ[issue](https://github.com/callieniera/fflogs-toxic-overlay/issues)で報告お願いします。  
       
 ## ご注意
 FFLogs APIに問い合わせるために、`client id`および`client secret`をサーバーに送ることになります。URLに`username` `password`のない状態でも、オーバーレイを利用できますが、一定時間内に問い合わせる回数の制限がございます。
 
-**ACTもIINACTなど外部ツールに該当るすものの利用は自己判断、自己責任でお願いします。**
+**ACTやIINACTなど外部ツールに該当るすものの利用は自己判断、自己責任でお願いします。**
 
 ## 関連リンク
 
