@@ -13,18 +13,19 @@
 
   <ol>
     <li>
-      <a href="#%E4%BA%8B%E5%89%8D%E6%BA%96%E5%82%99">マニュアル</a>
+      <a href="#マニュアル">マニュアル</a>
       <ul>
-        <li><a href="#built-with">事前準備</a></li>
-        <li><a href="#iinact%E5%B0%8E%E5%85%A5">IINACT導入</a></li>
-        <li><a href="#act%E5%B0%8E%E5%85%A5">ACT導入</a></li>
+        <li><a href="#事前準備">事前準備</a></li>
+        <li><a href="#iinact導入">IINACT導入</a></li>
+        <li><a href="#act導入">ACT導入</a></li>
       </ul>
     </li>
-    <li><a href="#%E4%BD%BF%E3%81%84%E6%96%B9">使い方</a></li>
+    <li><a href="#使い方">使い方</a></li>
     <li><a href="#エラー解消">エラー解消</a></li>
-    <li><a href="#%E3%81%94%E6%B3%A8%E6%84%8F">ご注意</a></li>
-    <li><a href="#change-log">Change Log</a></li>
-    <li><a href="#%E9%80%A3%E7%B5%A1%E5%85%88">連絡先</a></li>
+    <li><a href="#ご注意">ご注意</a></li>
+    <li><a href="#関連リンク">関連リンク</a></li>
+    <li><a href="#変更履歴">変更履歴</a></li>
+    <li><a href="#開発者">開発者</a></li>
   </ol>
 
 ## マニュアル
@@ -101,22 +102,40 @@ ACTに導入したい場合、Overlay.dllが必要になります。
 ## エラー解消
 
 1. **認証できません**   
-    `client id (Username)`か`client secret (password)`が正しくありません。
+    `client id (Username)`か`client secret (password)`が正しくありません。  
+      
 2. **未対応ワールド**  
-    現在 (`v0.1.0`)、日本サーバーにあるワールドのみ対応可能です。 
+    現在 (`v0.1.0`)、日本サーバーにあるワールドのみ対応可能です。  
+      
 3. **リクエストが多すぎます**  
-    しばらくお待ちください。
+    しばらくお待ちください。  
+      
 4. 他のエラー  
-    連続で発生する場合、ぜひ [issue](https://github.com/callieniera/fflogs-toxic-overlay/issues) で報告お願いします。
+    連続で発生する場合、ぜひ [issue](https://github.com/callieniera/fflogs-toxic-overlay/issues) で報告お願いします。  
+      
 ## ご注意
 FFLogs APIに問い合わせるために、`client id`および`client secret`をサーバーに送ることになります。URLに`username` `password`のない状態でも、オーバーレイを利用できますが、一定時間内に問い合わせる回数の制限がございます。
 
-## Change log
+**ACTもIINACTなど外部ツールに該当るすものの利用は自己判断、自己責任でお願いします。**
+
+## 関連リンク
+
+ - [XIVLauncher](https://goatcorp.github.io/)  
+ - [FFLogsViewer](https://github.com/Aireil/FFLogsViewer)  
+ - [IINACT](https://www.iinact.com/)  
+ - [Advanced Combat Tracker](https://advancedcombattracker.com/)
+ - [OverlayPlugin](https://github.com/OverlayPlugin/OverlayPlugin/)
+
+
+## 変更履歴
  > ``` 
  > v0.1.0 Public Version  
  > v0.0.0 Insider Test Verion  
  > ```
-## 連絡先
+
+
+
+## 開発者
 
 [Twitter@kagami_transl](https://twitter.com/kagami_transl)
 
