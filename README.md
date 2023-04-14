@@ -47,15 +47,14 @@ IINACTに導入したい場合、Browsingwayが必要になります。
     ```
     https://server03.akimiyabi.net/fflogs-toxic-overlay/?OVERLAY_WS=ws://127.0.0.1:10501/ws
     ```
-2. `client ID` `client secret`を以下の形でURLの後ろに追加：
+2. `client ID` `client secret`をパラメータ`username` `password`としてURLの後ろに追加：
     ```
     &username=client ID&password=client secret
     ```
-    最終的にURLをこのようにしたら大丈夫です：
+    パラメータを追加したURLはこんな感じになります：
     ```
-    https://server03.akimiyabi.net/fflogs-toxic-overlay/?OVERLAY_WS=ws://127.0.0.1:10501/ws&username=client ID&password=client secret
-    ```
-
+    https://server03.akimiyabi.net/fflogs-toxic-overlay/?OVERLAY_WS=ws://127.0.0.1:10501/ws&username=12345678-1234-1234-1234-123456789123&password=abcdefghijklmnopqrstuvwxyz
+    ``` 
 3. Browsingwayに新しいオーバーレイを追加。URLを貼ったら一回`Reload`。
 
 ### ACT導入
@@ -67,13 +66,13 @@ ACTに導入したい場合、Overlay.dllが必要になります。
     ```
     https://server03.akimiyabi.net/fflogs-toxic-overlay/
     ```
-2. `client ID` `client secret`を以下の形でURLの後ろに追加：
+2. `client ID` `client secret`をパラメータ`username` `password`としてURLの後ろに追加：
     ```
-    ?username=client ID&password=client secret
+    &username=client ID&password=client secret
     ```
-    最終的にURLをこのようにしたら大丈夫です：
+    パラメータを追加したURLはこんな感じになります：
     ```
-    https://server03.akimiyabi.net/fflogs-toxic-overlay/?username=client ID&password=client secret
+    https://server03.akimiyabi.net/fflogs-toxic-overlay/?username=12345678-1234-1234-1234-123456789123&password=abcdefghijklmnopqrstuvwxyz
     ```
 
 3. `Reload overlay`
