@@ -38,7 +38,7 @@
 
 
 ### ACT導入
-ACTに導入したい場合、Overlay.dllが必要になります。
+ACTに導入したい場合、`OverlayPlugin.dll`が必要になります。
 
 [OverlayPlugin](https://github.com/OverlayPlugin/OverlayPlugin/releases) (0.19.18+)
 
@@ -54,8 +54,14 @@ ACTに導入したい場合、Overlay.dllが必要になります。
     ```
     https://server03.akimiyabi.net/fflogs-toxic-overlay/?username=12345678-1234-1234-1234-123456789123&password=abcdefghijklmnopqrstuvwxyz
     ```
+3. ACT`Plugins` > `OverlayPlugin.dll`タブに下の画像のように新しいオーバーレイを追加。
+    > Preset: `Custom`  
+    > Type: `MiniParse`  
+    > !["オーバーレイを追加"](img/ACT_Overlayplugin_1.png)  
+4. 新しく追加されたオーバーレイの`General`タブにあるURL欄に、URLを貼る。  
+    > !["URLを貼る"](img/ACT_Overlayplugin_2.png)  
 
-3. `Reload overlay`
+5. `Reload overlay`
 
 ### IINACT導入
 IINACTに導入したい場合、Browsingwayが必要になります。
@@ -75,7 +81,9 @@ IINACTに導入したい場合、Browsingwayが必要になります。
     ```
     https://server03.akimiyabi.net/fflogs-toxic-overlay/?OVERLAY_WS=ws://127.0.0.1:10501/ws&username=12345678-1234-1234-1234-123456789123&password=abcdefghijklmnopqrstuvwxyz
     ``` 
-3. Browsingwayに新しいオーバーレイを追加。URLを貼ったら一回`Reload`。
+3. Browsingwayに新しいオーバーレイを追加、パラメーターがあるURLを貼る。  
+    > !["オーバーレイを追加"](img/IINACT_Overlayplugin_1.png)  
+4. `Reload`
 
 ## 使い方
 ゲーム内でキャラクターを4~5秒フォーカスしたら、オーバーレイに相手のデータを表示させることができます。
