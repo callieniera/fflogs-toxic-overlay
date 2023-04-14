@@ -14,8 +14,8 @@
         <a href="#マニュアル">マニュアル</a>
         <ul>
             <li><a href="#事前準備">事前準備</a></li>
-            <li><a href="#iinact導入">IINACT導入</a></li>
             <li><a href="#act導入">ACT導入</a></li>
+            <li><a href="#iinact導入">IINACT導入</a></li>
         </ul>
     </li>
     <li><a href="#使い方">使い方</a></li>
@@ -36,25 +36,6 @@
 2. `client ID`と`client secret`はあとで使うので一旦コピーし、保存してください。
     - `client secret`はあとで確認することができないので、紛失した場合は再発行となります。
 
-### IINACT導入
-IINACTに導入したい場合、Browsingwayが必要になります。
-
- - [IINACT](https://www.iinact.com/) ([Github](https://github.com/marzent/IINACT))
- - Browsingway ([Github](https://github.com/Styr1x/Browsingway)) 
-
-1. URLはこちら：
-    ```
-    https://server03.akimiyabi.net/fflogs-toxic-overlay/?OVERLAY_WS=ws://127.0.0.1:10501/ws
-    ```
-2. `client ID` `client secret`をパラメータ`username` `password`としてURLの後ろに追加：
-    ```
-    &username=client ID&password=client secret
-    ```
-    パラメータを追加したURLはこんな感じになります：
-    ```
-    https://server03.akimiyabi.net/fflogs-toxic-overlay/?OVERLAY_WS=ws://127.0.0.1:10501/ws&username=12345678-1234-1234-1234-123456789123&password=abcdefghijklmnopqrstuvwxyz
-    ``` 
-3. Browsingwayに新しいオーバーレイを追加。URLを貼ったら一回`Reload`。
 
 ### ACT導入
 ACTに導入したい場合、Overlay.dllが必要になります。
@@ -75,6 +56,26 @@ ACTに導入したい場合、Overlay.dllが必要になります。
     ```
 
 3. `Reload overlay`
+
+### IINACT導入
+IINACTに導入したい場合、Browsingwayが必要になります。
+
+ - [IINACT](https://www.iinact.com/) ([Github](https://github.com/marzent/IINACT))
+ - Browsingway ([Github](https://github.com/Styr1x/Browsingway)) 
+
+1. URLはこちら：
+    ```
+    https://server03.akimiyabi.net/fflogs-toxic-overlay/?OVERLAY_WS=ws://127.0.0.1:10501/ws
+    ```
+2. `client ID` `client secret`をパラメータ`username` `password`としてURLの後ろに追加：
+    ```
+    &username=client ID&password=client secret
+    ```
+    パラメータを追加したURLはこんな感じになります：
+    ```
+    https://server03.akimiyabi.net/fflogs-toxic-overlay/?OVERLAY_WS=ws://127.0.0.1:10501/ws&username=12345678-1234-1234-1234-123456789123&password=abcdefghijklmnopqrstuvwxyz
+    ``` 
+3. Browsingwayに新しいオーバーレイを追加。URLを貼ったら一回`Reload`。
 
 ## 使い方
 ゲーム内でキャラクターを4~5秒フォーカスしたら、オーバーレイに相手のデータを表示させることができます。
