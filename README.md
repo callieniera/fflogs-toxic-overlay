@@ -1,6 +1,31 @@
-# FFLogs-Toxic-Overlay
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+<a href="https://github.com/callieniera/fflogs-toxic-overlay/">
+<h1><img src="img/icon.webp" alt="Logo" width="20"> FFLogs-Toxic-Overlay</h1>
+</a>
 
-とてもトキシックなACT用オーバーレイです
+
+  <p align="center">
+    とてもトキシックなACT用オーバーレイです
+  </p>
+</div>
+
+  <ol>
+    <li>
+      <a href="#%E4%BA%8B%E5%89%8D%E6%BA%96%E5%82%99">マニュアル</a>
+      <ul>
+        <li><a href="#built-with">事前準備</a></li>
+        <li><a href="#iinact%E5%B0%8E%E5%85%A5">IINACT導入</a></li>
+        <li><a href="#act%E5%B0%8E%E5%85%A5">ACT導入</a></li>
+      </ul>
+    </li>
+    <li><a href="#%E4%BD%BF%E3%81%84%E6%96%B9">使い方</a></li>
+    <li><a href="#エラー解消">エラー解消</a></li>
+    <li><a href="#%E3%81%94%E6%B3%A8%E6%84%8F">ご注意</a></li>
+    <li><a href="#change-log">Change Log</a></li>
+    <li><a href="#%E9%80%A3%E7%B5%A1%E5%85%88">連絡先</a></li>
+  </ol>
 
 ## マニュアル
 
@@ -53,26 +78,28 @@ ACTに導入したい場合、Overlay.dllが必要になります。
 
 3. `Reload overlay`
 
-### 使い方
+## 使い方
 ゲーム内でキャラクターを4~5秒フォーカスしたら、オーバーレイに相手のデータを表示させることができます。
 
- > !["Showcase1"](./img/showcase1.png)
+ > <img src="img/showcase1.png" alt="Showcase1">
+
+オーバーレイはマウスホイールで左右操作することができます。
 
 おすすめ設定：
 
-     > サイズ：Height 100 以上  
-     > 位置：ゲーム画面の右  
-     > ロック：✔  
-     > クリックスルー：❌
+ > サイズ：`Height` `100` 以上  
+ > 位置：ゲーム画面の右  
+ > ロック：✔  
+ > クリックスルー：❌
 
  > 非表示のキャラクター  
- > !["ShowcaseHide"](./img/showcaseHide.png)
+ > <img src="img/showcaseHide.png" alt="ShowcaseHide" width="500">
 
 
  > FFLogsにデータのないキャラクター  
- > !["Showcase404"](./img/showcase404.png)
+ > <img src="./img/showcase404.png" alt="Showcase404" width="500">
 
-### エラー
+## エラー解消
 
 1. **認証できません**   
     `client id (Username)`か`client secret (password)`が正しくありません。
@@ -83,7 +110,7 @@ ACTに導入したい場合、Overlay.dllが必要になります。
 4. 他のエラー  
     連続で発生する場合、ぜひ [issue](https://github.com/callieniera/fflogs-toxic-overlay/issues) で報告お願いします。
 ## ご注意
-FFLogs APIに問い合わせるために、`client id`および`client secret`をサーバーに送ることになります。URLに`username` `password`をない状態（`https://server03.akimiyabi.net/fflogs-toxic-overlay/`のみ）でも、オーバーレイを利用できますが、一定時間内に問い合わせる回数の制限がございます。
+FFLogs APIに問い合わせるために、`client id`および`client secret`をサーバーに送ることになります。URLに`username` `password`のない状態でも、オーバーレイを利用できますが、一定時間内に問い合わせる回数の制限がございます。
 
 ## Change log
  > ``` 
