@@ -56,11 +56,30 @@ ACTに導入したい場合、Overlay.dllが必要になります。
 ### 使い方
 ゲーム内でキャラクターを4~5秒フォーカスしたら、オーバーレイで相手のデータを表示させることができます。
 
+ > !["Showcase1"](./img/showcase1.png)
+
+おすすめ設定：
+
+     > サイズ：Height 100 以上  
+     > 位置：ゲーム画面の右  
+     > ロック：✔  
+     > クリックスルー：❌
+
+ > 非表示のキャラクター  
+ > !["ShowcaseHide"](./img/showcaseHide.png)
+
+
+ > FFLogsにデータのないキャラクター  
+ > !["Showcase404"](./img/showcase404.png)
+
 ## ご注意
 FFLogs APIに問い合わせるために、`client id`および`client secret`をサーバーに送ることになります。URLに`username` `password`を付けない状態でも、このオーバーレイを利用できますが、一定時間内に問い合わせる回数の制限がございます。
 
 ## Change log
-
+ > ``` 
+ > v0.1.0 Public Version  
+ > v0.0.0 Insider Test Verion  
+ > ```
 ## 連絡先
 
 [Twitter@kagami_transl](https://twitter.com/kagami_transl)
