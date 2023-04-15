@@ -136,6 +136,8 @@ FFLogs APIに問い合わせるために、`client id`および`client secret`�
 
 ## 変更履歴
  > ``` 
+ > v0.1.1 Update horizontal UI
+ >        Add support on client languages
  > v0.1.0 Public Version  
  > v0.0.0 Insider Test Verion  
  > ```
